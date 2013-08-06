@@ -1,0 +1,53 @@
+= Naive Bayes Classifier
+
+This is an extremely simple, straight forward Naive Bayes implementation.
+
+== Install
+
+  gem sources -a -http://gemcutter.org
+  sudo gem install naive_bayes
+  
+== How To Use
+
+  require 'rubygems'
+  require 'naive_bayes'
+  
+  a = NaiveBayes.new(:spam, :ham)
+  
+  a.train(:spam, 'bad', 'word')
+  a.train(:ham, 'good', 'word')
+  
+  b = "this is a bad sentence".split(' ')
+  
+  a.classify(*b)
+    #=> [:spam, 0.03125]
+    
+You can also tell your classifier to save itself, so its easy for you to pick up where you left off:
+
+  require 'rubygems'
+  require 'naive_bayes'
+
+  a = NaiveBayes.new(:spam, :ham)
+  a.db_filepath = 'path/to/anywhere.nb'
+  
+  a.train(:spam, 'bad', 'word')
+  a.train(:ham, 'good', 'word')
+  
+  a.save
+
+Some time goes past and we want to classify a new document we just received...
+  
+  require 'rubygems'
+  require 'naive_bayes'
+  
+  a = NaiveBayes.load('path/to/file') 
+  
+  b = "this is a bad sentence".split(' ')
+  
+  # It's as if we were never apart
+  a.classify(*b)
+    #=> [:spam, 0.03125]
+  
+== Copyright
+
+Copyright (c) 2009 Red Davis. See LICENSE for details.
