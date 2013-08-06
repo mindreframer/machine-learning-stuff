@@ -1,0 +1,13 @@
+/tmp
+*.bundle
+*.so
+*.dylib
+*.model
+/pkg
+Gemfile.lock
+.rvmrc
+tags
+*.swp
+*~
+/.rbx
+/vendor
