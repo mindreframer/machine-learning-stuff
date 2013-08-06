@@ -13,6 +13,7 @@
 
 ## Case Studies
   - [Naive Bayes Case Study Craigslist Apartment Hunting](http://www.uvm.edu/~ejeldrid/resources/332.pdf)
+  - [Sentiment Analysis in Ruby](http://srug.pl/assets/mateusz-drozdzynski-sentiment-analysis-in-ruby.pdf)
 
 ## Algorithms:
   Naive Bayes
