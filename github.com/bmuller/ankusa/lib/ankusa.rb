@@ -1,0 +1,6 @@
+require 'ankusa/version'
+require 'ankusa/extensions'
+require 'ankusa/classifier'
+require 'ankusa/naive_bayes'
+require 'ankusa/kl_divergence'
+require 'ankusa/hasher'
