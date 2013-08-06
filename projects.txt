@@ -1,4 +1,4 @@
-https://github.com/febeling/rb-libsvm.git
-https://github.com/sausheong/naive-bayes.git
-https://github.com/reddavis/Naive-Bayes.git
 https://github.com/bmuller/ankusa.git
+https://github.com/febeling/rb-libsvm.git
+https://github.com/reddavis/Naive-Bayes.git
+https://github.com/sausheong/naive-bayes.git
