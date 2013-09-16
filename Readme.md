@@ -13,6 +13,10 @@
   - [Machine Learning (Part 2) - Tamara Broderick](http://www.youtube.com/watch?v=4baKKLtFK04)
 
 
+## Data Mining
+  - [Data Mining and Analysis: Fundamental Concepts and Algorithms](http://www.dcc.ufmg.br/miningalgorithms/files/pdf/dmafca.pdf), [Page](http://www.dcc.ufmg.br/livros/miningalgorithms/DokuWiki/doku.php?id=pdf)
+
+
 ## Case Studies
   - [Naive Bayes Case Study Craigslist Apartment Hunting](http://www.uvm.edu/~ejeldrid/resources/332.pdf)
   - [Sentiment Analysis in Ruby](http://srug.pl/assets/mateusz-drozdzynski-sentiment-analysis-in-ruby.pdf)
