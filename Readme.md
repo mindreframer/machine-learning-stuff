@@ -40,17 +40,17 @@
 
     bmuller/ankusa:
       Text classifier in Ruby that uses Hadoop/HBase, Mongo, or Cassandra for storage. New location for http://github.com/livingsocial/ankusa
-       64 commits, last change: 2013-06-19 11:34:37, 29 stars, 7 forks
+       64 commits, last change: , 47 stars, 12 forks
 
     febeling/rb-libsvm:
       Ruby language bindings for LIBSVM
-       151 commits, last change: 2013-03-20 01:41:26, 97 stars, 13 forks
+       167 commits, last change: , 118 stars, 12 forks
 
     reddavis/Naive-Bayes:
       Simple Naive Bayes classifier
-       26 commits, last change: 2012-01-29 10:52:48, 23 stars, 4 forks
+       26 commits, last change: , 27 stars, 6 forks
 
     sausheong/naive-bayes:
       Simple naive bayesian classifier implemented in Ruby
-       16 commits, last change: 2012-09-09 19:44:11, 31 stars, 8 forks
+       16 commits, last change: , 45 stars, 9 forks
 <!-- PROJECTS_LIST_END -->
